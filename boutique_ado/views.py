@@ -2,5 +2,5 @@
 
 from django.shortcuts import render
 
-def success_view(request):
-    return render(request, 'success.html')  # Renders a success template
+def index(request):
+    return render(request, 'home/index.html')
