@@ -27,6 +27,9 @@ DEBUG = True
 
 ALLOWED_HOSTS = ['8000-markmcl25-boutiqueadov1-9ej6pt44yta.ws-eu117.gitpod.io']
 
+CSRF_TRUSTED_ORIGINS = [
+    'https://8000-markmcl25-boutiqueadov1-9ej6pt44yta.ws-eu117.gitpod.io'
+]
 
 # Application definition
 
